@@ -306,9 +306,11 @@ setTimeout(function() {
 }, 1500);
  var html='<iframe class="content"  src='+tureurl+'></iframe>';
   document.writeln(html);
+	alert("加载成功:NoUrl"+html);
 console.log(tureurl);
 } else {
   console.log("nourls");
+	alert("加载失败:NoUrl");
 }
   </script>
  <script>
@@ -327,4 +329,5 @@ function bindMouseWhee(ifr){
 	}
 }
 </script> 
+
 
