@@ -293,9 +293,12 @@
             <div class="dot dot-3"></div>
 </div>
  <script>
+	 alert(1)
 var urlParams = new URLSearchParams(window.location.search);
+	 	 alert("2"+urlParams)
 var encodedParam = urlParams.get('c');
 var tureurl = atob(encodedParam);
+	 	 	 alert("3"+tureurl)
 if (tureurl.includes("http")) {
 var square = document.getElementById("container");
 setTimeout(function() {
@@ -324,3 +327,4 @@ function bindMouseWhee(ifr){
 	}
 }
 </script> 
+
